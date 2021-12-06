@@ -48,3 +48,12 @@
     left: 0px;
     top: 0px;
 }
+
+span.wow.zoomIn .color{
+    color: #081828;
+}
+
+.meta-info{
+    display: flex;
+    justify-content: space-between;
+}
