@@ -1,0 +1,50 @@
+/* GLOBAL CLASSES */
+:root {
+    --header-bg-color: #081828;
+}
+
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+
+.button .btn {
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+/* HEADER */
+.header {
+    background: var(--header-bg-color);
+    position: relative;
+}
+
+.navbar-area.sticky {
+    background:var(--bs-white);
+}
+
+/*  HERO AREA */
+.hero-area .hero-content {
+    padding: 100px 0 45px;
+}
+
+.btn.mi-btn {
+    width: 453px;
+    height: 45px;
+    background: #2D2D42;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+}
+
+.header.button.btn.login{
+    background-color: #2d2d42;
+    color: #f9fafb;
+    font-weight: 500;
+}
+
+/* VIDEO AREA */
+.intro-video-area .inner-content .shape2 {
+    height: 528px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
