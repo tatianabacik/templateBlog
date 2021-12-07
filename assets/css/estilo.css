@@ -57,3 +57,26 @@ span.wow.zoomIn .color{
     display: flex;
     justify-content: space-between;
 }
+
+button.portfolio-btn.redondo {
+    border-radius: 20px;
+}
+
+.portfolio-img img {
+    width: 100%;
+    height: 200px;
+}
+
+.portfolio-item-wrapper .portfolio-overlay {
+    background-color: #ffffff54;
+}
+
+.hero-area {
+    position: relative;
+    background-image: url(../assets/5.jpges/); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #081828;
+    z-index: 0;
+}
