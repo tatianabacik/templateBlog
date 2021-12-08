@@ -73,10 +73,42 @@ button.portfolio-btn.redondo {
 
 .hero-area {
     position: relative;
-    background-image: url(../assets/5.jpges/); 
+    background-image: url("../images/\(5\).jpg"); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #081828;
     z-index: 0;
+}
+
+.header .navbar-brand img {
+    width: 105px;
+    height: 95px;
+}
+
+.section-title h2 {
+   text-transform: none;    
+}
+
+a.btn.boton-pequenio-blog {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px !important;
+}
+
+.team .single-team img {
+    height: 213px;
+    width: 213px;
+}
+
+.hero-content-bg {
+    background: #afacac54;
+}
+
+.blog {
+    background-color: #ffffff5c;
+}
+
+.single-blog-grid .blog-img {
+    height: 266px;
 }
