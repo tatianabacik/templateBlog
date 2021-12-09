@@ -113,3 +113,39 @@ a.btn.boton-pequenio-blog {
     height: 266px;
 }
 
+.intro-video-area::before {
+    background-color: #081828;
+   
+}
+
+.section {
+     background-color: #081828;
+       
+}
+
+.blog-section {
+    background-color: #081828;
+}
+
+.cambio-gris {
+    background-color: #33393e;
+    color: #dee2e6;
+}
+
+.cambiar-negro {
+    background-color: #081828;
+}
+
+.cambiar-fondo {
+    background-color: #081828;
+}
+
+.cam-color{
+    color:#f9fafb
+
+}
+
+.team .single-team img {
+    background-color: #081828;
+    border: 1px solid #081828;
+}
