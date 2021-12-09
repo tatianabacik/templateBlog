@@ -81,10 +81,10 @@ button.portfolio-btn.redondo {
     z-index: 0;
 }
 
-.header .navbar-brand img {
+/* .header .navbar-brand img {
     width: 105px;
     height: 95px;
-}
+} */
 
 .section-title h2 {
    text-transform: none;    
@@ -112,3 +112,4 @@ a.btn.boton-pequenio-blog {
 .single-blog-grid .blog-img {
     height: 266px;
 }
+
