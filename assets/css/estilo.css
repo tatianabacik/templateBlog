@@ -141,11 +141,47 @@ a.btn.boton-pequenio-blog {
 }
 
 .cam-color{
-    color:#f9fafb
-
+    color:#f9fafb;
 }
 
 .team .single-team img {
     background-color: #081828;
     border: 1px solid #081828;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f8f9fa;
+}
+
+
+/* ESTILOS PAGINA DE POST */
+
+
+/* desarrollo */
+.redimencianar-post {
+background-color: #081828;
+position: absolute;
+width: 1080px;
+height: 567px;
+left: 64px;
+top: 863px;
+border: 1px solid #000000
+}
+
+.intro-video-area .inner-content {
+    background-color: #000000;
+    padding: 6px 0;
+    height: 95%;
+    border-radius: 36px;
+
+}
+
+/* Author Info */
+
+.autorpost {
+position: absolute;
+width: 411.18px;
+height: 126px;
+left: 276px;
+top: 1469px;
 }
