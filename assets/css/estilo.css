@@ -99,6 +99,7 @@ a.btn.boton-pequenio-blog {
 .team .single-team img {
     height: 213px;
     width: 213px;
+    padding: 0 !important;
 }
 
 .hero-content-bg {
@@ -113,18 +114,8 @@ a.btn.boton-pequenio-blog {
     height: 266px;
 }
 
-.intro-video-area::before {
-    background-color: #081828;
-   
-}
-
-.section {
-     background-color: #081828;
-       
-}
-
-.blog-section {
-    background-color: #081828;
+.section, .intro-video-area::before, .blog-section {
+    background-color: #081828;   
 }
 
 .cambio-gris {
@@ -140,8 +131,8 @@ a.btn.boton-pequenio-blog {
     background-color: #081828;
 }
 
-.cam-color{
-    color:#f9fafb;
+.cam-color, h1, h2, h3, h4, h5, h6{
+    color:#727272;
 }
 
 .team .single-team img {
@@ -149,9 +140,6 @@ a.btn.boton-pequenio-blog {
     border: 1px solid #081828;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #f8f9fa;
-}
 
 
 /* ESTILOS PAGINA DE POST */
@@ -263,4 +251,30 @@ button.reply-btn:hover, button.like-btn:hover {
 .comentario-textarea {
     width: 100%;
     height: 100px;
+}
+
+.cambio-colorblack{
+    background-color: #081828;
+}
+
+.footer-top {
+    background-color: #33393e;
+    padding: 20px 0;
+}
+
+.footer {
+    padding-top: 0;
+}
+
+.footer .copyright-area {
+    background-color: #33393e;
+}
+.footer .copyright-area .inner-content {
+    margin-top: 0;
+}
+
+
+
+.luminoso, .luminoso .intro-video-area::before{
+    background-color: #fff !important;
 }

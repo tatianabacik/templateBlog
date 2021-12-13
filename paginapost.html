@@ -20,7 +20,9 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 </head>
-<body>
+
+
+<body  class="cambio-colorblack">
 
 
 <div class="preloader">
@@ -94,9 +96,9 @@
         <a href="signup.html" class="btn login">Login</a>
     </div>
     <div class="button">
-        <a href="signup.html" class="btn btn-sm light-theme boton-pequenio-blog">
+        <button id="theme-button" class="btn btn-sm light-theme boton-pequenio-blog">
             <i class="lni lni-sun"></i>
-        </a>
+        </button>
     </div>
 </nav>
 
@@ -107,14 +109,10 @@
 </header>
 
  <!--HEADER container principal 3-->
-<section class="hero-area articulo">
+<section class="hero-area articulo section
+">
     <div class="container ">
         <div class="row align-items-center justify-content-end">
-<!--             <div class="col-lg-7 col-md-12 col-12">
-                <div class="hero-content">
-                    <img src="./assets/images/(5).jpg" alt="">
-                </div><
-            </div> -->
             <div class="col-lg-5 col-md-12 col-12 hero-content-bg">
                 <div class="hero-content">
                     <!--TITLE-->
@@ -128,7 +126,7 @@
     </div>
 </section>
 
-<section class="posteo">
+<section class="posteo section">
     <div class="container">
         <div class="row align-items-center justify-content-end">
             <div class="col-lg-3 col-md-12 col-12">
@@ -158,7 +156,7 @@ Por eso, dijo que Ecuador propone crear un fondo latinoamericano de despliegue r
         </div>
     </div>
 </section>
-<section class="autor">
+<section class="autor section">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12">
@@ -181,7 +179,7 @@ Por eso, dijo que Ecuador propone crear un fondo latinoamericano de despliegue r
     </div>
 </section>
 
-<section class="comentarios">
+<section class="comentarios section">
     <div class="container">
         <div class="row">
             <h2 class="comentarios-title">Comentarios</h2>
@@ -190,7 +188,7 @@ Por eso, dijo que Ecuador propone crear un fondo latinoamericano de despliegue r
             <div class="col-md-12">
                 <div class="comentario-container">
                     <div class="col-md-2 avatar">
-                        <img src="https://i.pinimg.com/564x/73/6f/36/736f3621fbf232adadbdf5116befc834.jpg" alt="bacik tatiana">
+                        <img src="https://i.pinimg.com/564x/f7/e1/24/f7e12488f40c72fca1dbeee7c87efe6c.jpg" alt="bacik tatiana">
                     </div>
                     <div class="col-md-10 comentario-area">
                         <div class="comentario-title">
@@ -228,6 +226,8 @@ Por eso, dijo que Ecuador propone crear un fondo latinoamericano de despliegue r
         </div>
     </div>
 </section>
+
+
 <footer class="footer section">
 
     <div class="footer-top">
@@ -255,52 +255,6 @@ Por eso, dijo que Ecuador propone crear un fondo latinoamericano de despliegue r
                         </div>
 
                     </div>
-<!--                     <div class="col-lg-2 col-md-6 col-12">
-
-                        <div class="single-footer f-link">
-                            <h3>GENERAL</h3>
-                            <ul>
-                                <li><a href="javascript:void(0)">My Mission</a></li>
-                                <li><a href="javascript:void(0)">Privacy policy</a></li>
-                                <li><a href="javascript:void(0)">Terms or use</a></li>
-                                <li><a href="javascript:void(0)">Code of conduct</a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-12">
-
-                        <div class="single-footer f-link">
-                            <h3>EXPLORATE</h3>
-                            <ul>
-                                <li><a href="javascript:void(0)">About</a></li>
-                                <li><a href="javascript:void(0)">Documentation</a></li>
-                                <li><a href="javascript:void(0)">Guides</a></li>
-                                <li><a href="javascript:void(0)">API Status</a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-
-                        <div class="single-footer newsletter">
-                            <h3>Suscribete</h3>
-                            <p>Suscríbete y recibe las ultímas actualizaciones
-                            </p>
-                            <form action="#" method="get" target="_blank" class="newsletter-form">
-                                <input name="EMAIL" placeholder="Email address" required="required" type="email">
-                                <div class="button">
-                                    <button class="sub-btn"><i class="lni lni-envelope"></i>
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div -->
 
 
     <div class="copyright-area">
@@ -308,11 +262,11 @@ Por eso, dijo que Ecuador propone crear un fondo latinoamericano de despliegue r
             <div class="inner-content">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-12">
-                        <p class="copyright-text">© 2021 Craft - All Rights Reserved</p>
+                        <p class="copyright-text">© 2021 THINKGREEN- Piensa en Verde</p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-12">
                         <p class="copyright-owner"><a href="https://graygrids.com/"
-                                rel="nofollow" target="_blank">GrayGrids</a>
+                                rel="nofollow" target="_blank"></a>
                     </div>
                 </div>
             </div>
@@ -379,6 +333,24 @@ Por eso, dijo que Ecuador propone crear un fondo latinoamericano de despliegue r
                 })
             );
         });
+
+        var $themeButton = document.querySelector('#theme-button'); // obtengo elemento boton
+        var $sections = document.getElementsByClassName('section'); // obtengo el body de la lista de tags
+        var $body = document.getElementsByTagName('body')[0];
+        $themeButton.addEventListener('click', function () { // definir un evento
+            if ($sections[0].style.backgroundColor === 'white') { // si $body tiene la clase oscuro cambia a luminoso
+                $body.className = '';
+            } else {
+                $body.className = 'luminoso';
+            }
+            for (let i = 0; i < $sections.length; i++) {
+                if ($sections[i].style.backgroundColor === 'white') { // si $body tiene la clase oscuro cambia a luminoso
+                    $sections[i].style.backgroundColor = '#081828'
+                } else {
+                    $sections[i].style.backgroundColor = 'white' // sino que siga oscuro
+                }
+            }
+        })
 
     </script>
 </body>
