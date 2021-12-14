@@ -8,7 +8,7 @@
 <title>Craft - Startup Landing Page Template.</title>
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" /> 
 
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 <link rel="stylesheet" href="assets/css/LineIcons.3.0.css" />
@@ -334,24 +334,7 @@ Por eso, dijo que Ecuador propone crear un fondo latinoamericano de despliegue r
             );
         });
 
-        var $themeButton = document.querySelector('#theme-button'); // obtengo elemento boton
-        var $sections = document.getElementsByClassName('section'); // obtengo el body de la lista de tags
-        var $body = document.getElementsByTagName('body')[0];
-        $themeButton.addEventListener('click', function () { // definir un evento
-            if ($sections[0].style.backgroundColor === 'white') { // si $body tiene la clase oscuro cambia a luminoso
-                $body.className = '';
-            } else {
-                $body.className = 'luminoso';
-            }
-            for (let i = 0; i < $sections.length; i++) {
-                if ($sections[i].style.backgroundColor === 'white') { // si $body tiene la clase oscuro cambia a luminoso
-                    $sections[i].style.backgroundColor = '#081828'
-                } else {
-                    $sections[i].style.backgroundColor = 'white' // sino que siga oscuro
-                }
-            }
-        })
-
+      
     </script>
 </body>
 </html>
