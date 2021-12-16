@@ -141,6 +141,11 @@ a.btn.boton-pequenio-blog {
 }
 
 
+.col-lg-3 {
+    flex: 1 0 auto;
+   
+}
+
 
 /* ESTILOS PAGINA DE POST */
 
@@ -277,4 +282,15 @@ button.reply-btn:hover, button.like-btn:hover {
 
 .luminoso, .luminoso .intro-video-area::before{
     background-color: #fff !important;
+}
+
+/*CATEGORY*/
+
+.breadcrumbs {
+    background-image: url("../images/\(5\).jpg");
+    
+}
+
+.single-blog-grid {
+    max-height: 753px;
 }
