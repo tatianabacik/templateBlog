@@ -25,6 +25,7 @@
 /*  HERO AREA */
 .hero-area .hero-content {
     padding: 100px 0 45px;
+
 }
 
 .btn.mi-btn {
@@ -103,7 +104,7 @@ a.btn.boton-pequenio-blog {
 }
 
 .hero-content-bg {
-    background: #9f9898d6;
+    background: #081828c9;
 }
 
 .blog {
@@ -287,8 +288,7 @@ button.reply-btn:hover, button.like-btn:hover {
 /*CATEGORY*/
 
 .breadcrumbs {
-    background-image: url("../images/\(5\).jpg");
-    
+    background-image: url("../images/\(5\).jpg");    
 }
 
 .single-blog-grid {
